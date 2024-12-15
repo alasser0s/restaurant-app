@@ -11,9 +11,9 @@ export default function MenuPage() {
   }
 
   return (
-    <div className="max-w-6xl mx-auto py-16 px-4 bg-white dark:bg-darkbg text-black dark:text-gray-200">
+    <div className="max-w-6xl mx-auto py-16 px-4">
       <h2 className="text-3xl font-serif text-gold mb-8">Our Menu</h2>
-      <p className="text-black dark:text-gray-300 mb-8 max-w-2xl font-light">
+      <p className="text-gray-300 mb-8 max-w-2xl font-light">
         Each dish is a masterpiece crafted with passion, fresh ingredients, and authentic Italian flavors.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">

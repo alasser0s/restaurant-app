@@ -5,11 +5,6 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import { useState, useEffect } from 'react'
 
- const metadata = {
-  title: 'La Bella Vita',
-  description: 'A luxurious Italian dining experience',
-}
-
 export default function RootLayout({
   children,
 }: {

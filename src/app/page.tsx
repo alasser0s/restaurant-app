@@ -34,7 +34,7 @@ export default function HomePage() {
   const currentTestimonial = testimonials[testimonialIndex];
 
   return (
-    <div className="min-h-screen bg-white dark:bg-darkbg text-black dark:text-gray-200">
+    <div>
       <Hero />
 
       {/* About Section */}
@@ -46,8 +46,8 @@ export default function HomePage() {
           transition={{duration:0.5}}
         >
           <h2 className="text-3xl font-serif text-gold mb-8">Our Philosophy</h2>
-          <p className="text-black dark:text-gray-300 leading-relaxed max-w-3xl text-lg font-light">
-            At <span className="font-semibold text-gray-100 dark:text-gray-400">La Bella Vita</span>, we believe that dining is an art form. 
+          <p className="text-gray-300 leading-relaxed max-w-3xl text-lg font-light">
+            At <span className="font-semibold text-gray-100">La Bella Vita</span>, we believe that dining is an art form. 
             Every dish is crafted with a passion for flavor and authenticity. 
             We source the freshest local ingredients and combine them with time-honored Italian traditions 
             to bring you a culinary experience that is both innovative and deeply rooted in heritage.
@@ -64,7 +64,7 @@ export default function HomePage() {
           transition={{duration:0.5}}
         >
           <h2 className="text-3xl font-serif text-gold mb-8">Signature Dishes</h2>
-          <p className="text-black dark:text-gray-300 max-w-2xl font-light mb-12">
+          <p className="text-gray-300 max-w-2xl font-light mb-12">
             Experience a selection of our most beloved creations, each one a testament to our chefs’ dedication and skill.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -112,11 +112,11 @@ export default function HomePage() {
           className="md:w-1/2"
         >
           <h2 className="text-3xl font-serif text-gold mb-4">Meet Chef Alessandro</h2>
-          <p className="text-black dark:text-gray-300 font-light leading-relaxed mb-4">
+          <p className="text-gray-300 font-light leading-relaxed mb-4">
             With over 20 years of culinary experience, Chef Alessandro has honed his craft in some of Italy’s most renowned kitchens. 
             His philosophy is simple: celebrate quality ingredients, respect tradition, and never stop innovating.
           </p>
-          <p className="text-black dark:text-gray-300 font-light leading-relaxed">
+          <p className="text-gray-300 font-light leading-relaxed">
             Under his guidance, La Bella Vita’s menu evolves with the seasons, ensuring that each visit brings a new and delightful surprise.
           </p>
         </motion.div>
@@ -131,13 +131,13 @@ export default function HomePage() {
           transition={{duration:0.5}}
         >
           <h2 className="text-3xl font-serif text-gold mb-8">What Our Guests Say</h2>
-          <div className="relative bg-gray-900/60 dark:bg-gray-900 backdrop-blur-sm rounded-lg p-6 md:p-10">
-            <p className="text-gray-200 dark:text-gray-400 italic text-lg mb-6">"{currentTestimonial.text}"</p>
-            <div className="text-gray-400 dark:text-gray-600 text-sm mb-4">— {currentTestimonial.name}</div>
+          <div className="relative bg-gray-900/60 backdrop-blur-sm rounded-lg p-6 md:p-10">
+            <p className="text-gray-200 italic text-lg mb-6">"{currentTestimonial.text}"</p>
+            <div className="text-gray-400 text-sm mb-4">— {currentTestimonial.name}</div>
 
             <div className="flex space-x-4">
-              <button onClick={handlePrevTestimonial} className="px-3 py-2 rounded bg-gray-800 dark:bg-gray-900 hover:bg-gray-700 dark:hover:bg-gray-800 transition text-sm">Prev</button>
-              <button onClick={handleNextTestimonial} className="px-3 py-2 rounded bg-gray-800 dark:bg-gray-900 hover:bg-gray-700 dark:hover:bg-gray-800 transition text-sm">Next</button>
+              <button onClick={handlePrevTestimonial} className="px-3 py-2 rounded bg-gray-800 hover:bg-gray-700 transition text-sm">Prev</button>
+              <button onClick={handleNextTestimonial} className="px-3 py-2 rounded bg-gray-800 hover:bg-gray-700 transition text-sm">Next</button>
             </div>
           </div>
         </motion.div>
@@ -152,7 +152,7 @@ export default function HomePage() {
           transition={{duration:0.5}}
         >
           <h2 className="text-3xl font-serif text-gold mb-8">Gallery</h2>
-          <p className="text-black dark:text-gray-300 font-light mb-8 max-w-2xl">
+          <p className="text-gray-300 font-light mb-8 max-w-2xl">
             Explore our restaurant’s ambiance, from the intimate seating areas to the open kitchen and handpicked décor.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -175,12 +175,12 @@ export default function HomePage() {
           <h2 className="text-3xl font-serif text-gold mb-8">Location & Hours</h2>
           <div className="grid md:grid-cols-2 gap-8 items-start">
             <div>
-              <p className="text-black dark:text-gray-300 font-light mb-4">Via Roma 123, Florence, Italy</p>
-              <p className="text-black dark:text-gray-300 font-light mb-4">Monday - Friday: 12:00 PM - 10:00 PM</p>
-              <p className="text-black dark:text-gray-300 font-light mb-4">Saturday - Sunday: 1:00 PM - 11:00 PM</p>
-              <p className="text-black dark:text-gray-300">For reservations, call +39 055 1234567 or <a href="/booking" className="text-gold hover:opacity-90">book online</a>.</p>
+              <p className="text-gray-300 font-light mb-4">Via Roma 123, Florence, Italy</p>
+              <p className="text-gray-300 font-light mb-4">Monday - Friday: 12:00 PM - 10:00 PM</p>
+              <p className="text-gray-300 font-light mb-4">Saturday - Sunday: 1:00 PM - 11:00 PM</p>
+              <p className="text-gray-300 font-light">For reservations, call +39 055 1234567 or <a href="/booking" className="text-gold hover:opacity-90">book online</a>.</p>
             </div>
-            <div className="relative w-full h-64 bg-gray-800 dark:bg-gray-900 rounded overflow-hidden">
+            <div className="relative w-full h-64 bg-gray-800 rounded overflow-hidden">
               {/* Replace this div with an actual map embed if available */}
               <iframe 
                 className="absolute inset-0 w-full h-full"
@@ -201,22 +201,22 @@ export default function HomePage() {
           whileInView={{opacity:1, y:0}} 
           viewport={{once:true}} 
           transition={{duration:0.5}}
-          className="bg-gray-900/50 dark:bg-gray-900 backdrop-blur-sm rounded-lg p-8 text-center"
+          className="bg-gray-900/50 backdrop-blur-sm rounded-lg p-8 text-center"
         >
           <h2 className="text-2xl font-serif text-gold mb-4">Join Our Newsletter</h2>
-          <p className="text-black dark:text-gray-300 font-light mb-8 max-w-md mx-auto">
+          <p className="text-black font-light mb-8 max-w-md mx-auto">
             Stay updated with our latest culinary creations, special events, and exclusive offers.
           </p>
           <form className="max-w-md mx-auto flex flex-col sm:flex-row items-center gap-4">
             <input 
               type="email" 
               placeholder="Your email address" 
-              className="flex-1 border border-gray-700 dark:border-gray-900 bg-gray-800 dark:bg-gray-900 rounded p-2 text-white dark:text-gray-200 focus:outline-none"
+              className="flex-1 border border-gray-700 bg-gray-800 rounded p-2 text-white focus:outline-none"
               required
             />
             <button 
               type="submit" 
-              className="bg-gold text-black dark:text-gray-200 font-semibold py-2 px-4 rounded hover:opacity-90 transition w-full sm:w-auto"
+              className="bg-gold text-black font-semibold py-2 px-4 rounded hover:opacity-90 transition w-full sm:w-auto"
             >
               Subscribe
             </button>

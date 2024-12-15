@@ -1,0 +1,54 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-0112a57ec535ff42.js",
+      "static/chunks/4bd1b696-eeee3053570bc0f9.js",
+      "static/chunks/517-66336f873a537682.js",
+      "static/chunks/main-app-4764df99b1013969.js",
+      "static/chunks/app/_not-found/page-03f7da9c54414552.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-0112a57ec535ff42.js",
+      "static/chunks/4bd1b696-eeee3053570bc0f9.js",
+      "static/chunks/517-66336f873a537682.js",
+      "static/chunks/main-app-4764df99b1013969.js",
+      "static/css/37f1de8c4aac5a53.css",
+      "static/chunks/173-c8fa7a1219ee7cb6.js",
+      "static/chunks/app/layout-5f89e72661a1fdbb.js"
+    ],
+    "/booking/page": [
+      "static/chunks/webpack-0112a57ec535ff42.js",
+      "static/chunks/4bd1b696-eeee3053570bc0f9.js",
+      "static/chunks/517-66336f873a537682.js",
+      "static/chunks/main-app-4764df99b1013969.js",
+      "static/chunks/934-f20ffff26038ce64.js",
+      "static/chunks/app/booking/page-cfef45dc366d454e.js"
+    ],
+    "/order/page": [
+      "static/chunks/webpack-0112a57ec535ff42.js",
+      "static/chunks/4bd1b696-eeee3053570bc0f9.js",
+      "static/chunks/517-66336f873a537682.js",
+      "static/chunks/main-app-4764df99b1013969.js",
+      "static/chunks/934-f20ffff26038ce64.js",
+      "static/chunks/app/order/page-99c3c6e7b8ab0b09.js"
+    ],
+    "/menu/page": [
+      "static/chunks/webpack-0112a57ec535ff42.js",
+      "static/chunks/4bd1b696-eeee3053570bc0f9.js",
+      "static/chunks/517-66336f873a537682.js",
+      "static/chunks/main-app-4764df99b1013969.js",
+      "static/chunks/934-f20ffff26038ce64.js",
+      "static/chunks/app/menu/page-e0766d8899f0a015.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-0112a57ec535ff42.js",
+      "static/chunks/4bd1b696-eeee3053570bc0f9.js",
+      "static/chunks/517-66336f873a537682.js",
+      "static/chunks/main-app-4764df99b1013969.js",
+      "static/chunks/934-f20ffff26038ce64.js",
+      "static/chunks/173-c8fa7a1219ee7cb6.js",
+      "static/chunks/565-cbde05e3216ec28f.js",
+      "static/chunks/app/page-fb3a05d740c58bbf.js"
+    ]
+  }
+}

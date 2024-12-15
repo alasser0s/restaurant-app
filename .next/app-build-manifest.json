@@ -1,54 +1,54 @@
 {
   "pages": {
-    "/_not-found/page": [
-      "static/chunks/webpack-0112a57ec535ff42.js",
-      "static/chunks/4bd1b696-eeee3053570bc0f9.js",
-      "static/chunks/517-66336f873a537682.js",
-      "static/chunks/main-app-4764df99b1013969.js",
-      "static/chunks/app/_not-found/page-03f7da9c54414552.js"
+    "/_not-found": [
+      "static/chunks/webpack-5c924b0f966bec2b.js",
+      "static/chunks/fd9d1056-6110ffd77e8dcc12.js",
+      "static/chunks/69-1f54a831a0e5ef05.js",
+      "static/chunks/main-app-503ddbbdc9f413cc.js",
+      "static/chunks/app/_not-found-f328fbb0d0dc08db.js"
     ],
     "/layout": [
-      "static/chunks/webpack-0112a57ec535ff42.js",
-      "static/chunks/4bd1b696-eeee3053570bc0f9.js",
-      "static/chunks/517-66336f873a537682.js",
-      "static/chunks/main-app-4764df99b1013969.js",
-      "static/css/37f1de8c4aac5a53.css",
-      "static/chunks/173-c8fa7a1219ee7cb6.js",
-      "static/chunks/app/layout-5f89e72661a1fdbb.js"
+      "static/chunks/webpack-5c924b0f966bec2b.js",
+      "static/chunks/fd9d1056-6110ffd77e8dcc12.js",
+      "static/chunks/69-1f54a831a0e5ef05.js",
+      "static/chunks/main-app-503ddbbdc9f413cc.js",
+      "static/chunks/792-d94ea50a1bcfa559.js",
+      "static/css/7cd65491a0cd87ad.css",
+      "static/chunks/app/layout-2789c7c87e703b13.js"
     ],
     "/booking/page": [
-      "static/chunks/webpack-0112a57ec535ff42.js",
-      "static/chunks/4bd1b696-eeee3053570bc0f9.js",
-      "static/chunks/517-66336f873a537682.js",
-      "static/chunks/main-app-4764df99b1013969.js",
-      "static/chunks/934-f20ffff26038ce64.js",
-      "static/chunks/app/booking/page-cfef45dc366d454e.js"
+      "static/chunks/webpack-5c924b0f966bec2b.js",
+      "static/chunks/fd9d1056-6110ffd77e8dcc12.js",
+      "static/chunks/69-1f54a831a0e5ef05.js",
+      "static/chunks/main-app-503ddbbdc9f413cc.js",
+      "static/chunks/133-7d954b4c5696a46f.js",
+      "static/chunks/app/booking/page-515204e83b563ca2.js"
     ],
     "/order/page": [
-      "static/chunks/webpack-0112a57ec535ff42.js",
-      "static/chunks/4bd1b696-eeee3053570bc0f9.js",
-      "static/chunks/517-66336f873a537682.js",
-      "static/chunks/main-app-4764df99b1013969.js",
-      "static/chunks/934-f20ffff26038ce64.js",
-      "static/chunks/app/order/page-99c3c6e7b8ab0b09.js"
+      "static/chunks/webpack-5c924b0f966bec2b.js",
+      "static/chunks/fd9d1056-6110ffd77e8dcc12.js",
+      "static/chunks/69-1f54a831a0e5ef05.js",
+      "static/chunks/main-app-503ddbbdc9f413cc.js",
+      "static/chunks/133-7d954b4c5696a46f.js",
+      "static/chunks/app/order/page-e650f55ec17bc593.js"
     ],
     "/menu/page": [
-      "static/chunks/webpack-0112a57ec535ff42.js",
-      "static/chunks/4bd1b696-eeee3053570bc0f9.js",
-      "static/chunks/517-66336f873a537682.js",
-      "static/chunks/main-app-4764df99b1013969.js",
-      "static/chunks/934-f20ffff26038ce64.js",
-      "static/chunks/app/menu/page-e0766d8899f0a015.js"
+      "static/chunks/webpack-5c924b0f966bec2b.js",
+      "static/chunks/fd9d1056-6110ffd77e8dcc12.js",
+      "static/chunks/69-1f54a831a0e5ef05.js",
+      "static/chunks/main-app-503ddbbdc9f413cc.js",
+      "static/chunks/133-7d954b4c5696a46f.js",
+      "static/chunks/app/menu/page-7eba359cfba2e34d.js"
     ],
     "/page": [
-      "static/chunks/webpack-0112a57ec535ff42.js",
-      "static/chunks/4bd1b696-eeee3053570bc0f9.js",
-      "static/chunks/517-66336f873a537682.js",
-      "static/chunks/main-app-4764df99b1013969.js",
-      "static/chunks/934-f20ffff26038ce64.js",
-      "static/chunks/173-c8fa7a1219ee7cb6.js",
-      "static/chunks/565-cbde05e3216ec28f.js",
-      "static/chunks/app/page-fb3a05d740c58bbf.js"
+      "static/chunks/webpack-5c924b0f966bec2b.js",
+      "static/chunks/fd9d1056-6110ffd77e8dcc12.js",
+      "static/chunks/69-1f54a831a0e5ef05.js",
+      "static/chunks/main-app-503ddbbdc9f413cc.js",
+      "static/chunks/133-7d954b4c5696a46f.js",
+      "static/chunks/792-d94ea50a1bcfa559.js",
+      "static/chunks/703-458dc2332f22f1dd.js",
+      "static/chunks/app/page-7557b49055493193.js"
     ]
   }
 }
